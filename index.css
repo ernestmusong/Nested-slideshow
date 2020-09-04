@@ -12,6 +12,28 @@ body {
   background-color: #333333;
 }
 
+.carousel-item-main-text {
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1000;
+  /* background-color: transparent; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  padding-top: 40px;
+}
+
+.carousel-item-main-text h1 {
+  text-transform: uppercase;
+  color: #f0f0f0;
+  z-index: 1000;
+  letter-spacing: 10px;
+  font-weight: bolder;
+}
 .slideshow {
   width: 100%;
   height: 100vh;
