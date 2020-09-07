@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  display: block;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  background: linear-gradient(to right, grey, #f0f0f0);
+  margin: 0 auto;
+}
+
+.social-icons button {
+  background-color: #333333;
+  opacity: 0.8;
+  margin-right: 6px;
+}
+
+.main {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 90vh;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 20px;
+  left: 30px;
+  right: 30px;
+  position: fixed;
+}
+
+.main-left {
+  width: 60%;
+  height: 100%;
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+}
+
+.main-left-child {
+  width: 100%;
+  height: 50%;
+
+  opacity: 0.7;
+}
+#main-left-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  opacity: 0.5;
+}
+
+.main-right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+}
+
+#main-right-child {
+  width: 100%;
+  padding-top: 80px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.submit-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: white; */
+  padding: 0;
+}
