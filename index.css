@@ -98,6 +98,14 @@ body {
   animation-delay: 0s;
 }
 
+.leadership {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  opacity: 0;
+  animation: cycleimages 31s infinite;
+}
+
 .leadership:nth-child(1),
 .leadership:nth-child(1) img {
   animation-delay: 0s;
