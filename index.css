@@ -14,14 +14,17 @@ body {
 }
 
 .carousel-indicators {
-  /* bottom: 50% !important; */
-  /* top: 50% !important; */
   display: flex !important;
   flex-direction: column !important;
   justify-content: flex-start !important;
   margin-left: 1% !important;
   height: 500px;
   width: auto;
+  padding-left: 0;
+  margin-right: 15%;
+  list-style-type: none;
+  left: 0;
+  transform: translateY(30%);
 }
 
 .carousel-indicators .active {
@@ -32,12 +35,13 @@ body {
   z-index: 200 !important;
   text-indent: 0px !important;
   width: auto !important;
-  height: 30px !important;
-  display: flex !important;
-  /* justify-content: space-between !important; */
-  align-items: center !important;
-  opacity: 0.5;
-  background-color: transparent;
+  height: 2rem !important;
+  display: flex;
+
+  align-items: center;
+  /* opacity: 0.5; */
+  background: none !important;
+  border: none !important;
   visibility: hidden;
 }
 
@@ -54,7 +58,7 @@ body {
   margin-left: 20px;
   font-weight: bold;
   font-size: 16px;
-  height: 30px;
+  height: 16px;
   color: yellow;
   text-transform: uppercase;
   /* visibility: hidden; */
@@ -325,9 +329,10 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   margin: 0 auto;
+  padding-bottom: 200px;
 }
 
 .business-by-numbers-child {
