@@ -297,24 +297,103 @@ body {
     max-width: 70%;
     padding: 5rem 3rem;
   }
-  .slideshow-item-text h5 {
-    font-size: 4rem;
-  }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .slideshow-item-text {
     max-width: 100%;
     padding: 2rem;
-    top: initial;
-    bottom: 0;
+    top: 35% !important;
+    /* bottom: 0; */
     transform: initial;
+    margin: 0 auto !important;
   }
-  .slideshow-item-text h5 {
-    font-size: 3rem;
+  .li-div2 {
+    font-size: 1rem;
   }
-  .slideshow-item-text p {
-    font-size: 1.4rem;
+  .icons {
+    font-size: 3rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .top {
+    top: 0 !important;
+    left: 0 !important;
+  }
+
+  #home-nils {
+    top: 35% !important;
+  }
+
+  .slideshow-item-text .para {
+    font-size: 1.4rem !important;
+  }
+
+  .slideshow-item-text #home-h1 {
+    font-size: 10rem !important;
+    line-height: 50px !important;
+  }
+  .slideshow-item-text #home-p {
+    font-size: 15px !important;
+    text-indent: 50px !important;
+    letter-spacing: 10px !important;
+  }
+
+  .slideshow-item-text #home-p2 {
+    font-size: 10px !important;
+    text-indent: 50px !important;
+    letter-spacing: 13px !important;
+  }
+  .slideshow-item-text span {
+    letter-spacing: 10px !important;
+  }
+}
+
+@media screen and (max-width: 522px) {
+  .slideshow-item-text {
+    max-width: 100%;
+    padding: 2rem;
+    top: 35% !important;
+    /* bottom: 0; */
+    transform: initial;
+    margin: 0 auto !important;
+  }
+  .icons {
+    font-size: 3rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .top {
+    top: 0 !important;
+    left: 0 !important;
+  }
+
+  #home-nils {
+    top: 35% !important;
+    left: 12.5%;
+  }
+
+  .slideshow-item-text .para {
+    font-size: 1.4rem !important;
+  }
+
+  .slideshow-item-text #home-h1 {
+    font-size: 8rem !important;
+    line-height: 50px !important;
+  }
+  .slideshow-item-text #home-p {
+    font-size: 1rem !important;
+    text-indent: 3.1rem !important;
+    letter-spacing: 10px !important;
+  }
+
+  .slideshow-item-text #home-p2 {
+    font-size: 0.6rem !important;
+    text-indent: 3.1rem !important;
+    letter-spacing: 12.5px !important;
+  }
+  .slideshow-item-text span {
+    letter-spacing: 10px !important;
   }
 }
 
