@@ -1,1 +1,1 @@
-
+A Nested-slideshow using CSS and javascript. Each carousel slide nests several other slides of different durations. Untill the slides in each carousel slide have finished displaying only then can it move to the next carousel slide.
